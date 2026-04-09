@@ -1,17 +1,21 @@
+/* Algemene pagina-instellingen */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0; /* volledige achtergrondkleur */
 }
 
+/* Navigatiebalk */
 .navbar {
   display: flex;
-  gap: 30px;
+  justify-content: center; /* centreren van links */
+  gap: 40px;
   padding: 20px 40px;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
+  background-color: #ffffff; /* duidelijke witte balk */
+  border-bottom: 1px solid #ccc;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .navbar a {
@@ -25,14 +29,16 @@ body {
   color: #0077cc;
 }
 
+/* Hero / Titelblok */
 .hero {
-  padding: 100px 20px;
-  background: #f5f5f5;
-  text-align: center;
+  padding: 120px 20px;
+  text-align: center; /* titel centreren */
+  background-color: #fafafa; /* subtiele achtergrond */
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 300;
   margin: 0;
+  color: #222;
 }
