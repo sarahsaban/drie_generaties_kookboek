@@ -2,16 +2,16 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #f0f0f0; /* volledige achtergrondkleur */
+  background-color: #f0f0f0;
 }
 
 /* Navigatiebalk */
 .navbar {
   display: flex;
-  justify-content: center; /* centreren van links */
+  justify-content: center;
   gap: 40px;
   padding: 20px 40px;
-  background-color: #ffffff; /* duidelijke witte balk */
+  background-color: #ffffff;
   border-bottom: 1px solid #ccc;
   position: sticky;
   top: 0;
@@ -32,8 +32,8 @@ body {
 /* Hero / Titelblok */
 .hero {
   padding: 120px 20px;
-  text-align: center; /* titel centreren */
-  background-color: #fafafa; /* subtiele achtergrond */
+  text-align: center;
+  background-color: #fafafa;
 }
 
 .hero h1 {
