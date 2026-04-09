@@ -42,3 +42,25 @@ body {
   margin: 0;
   color: #222;
 }
+
+/* Algemene content-sectie */
+.content {
+  max-width: 700px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+  color: #333;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* Links in de content */
+.content .links a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content .links a:hover {
+  text-decoration: underline;
+}
