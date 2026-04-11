@@ -98,7 +98,7 @@ body {
 /* Recept card */
 .recipe-card {
   background: #FFFFFF;
-  border-radius: 8px;
+  border-radius: 28px;
   overflow: hidden;
   text-decoration: none;
   color: #3B2F2F;
