@@ -2,7 +2,8 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #F6E9D7; /* Buttercream */
+  color: #3B2A26; /* Roasted Cocoa */
 }
 
 /* Navigatiebalk */
@@ -11,8 +12,8 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 20px 40px;
-  background-color: #ffffff;
-  border-bottom: 1px solid #ccc;
+  background-color: #EAD8C0; /* Oat Milk */
+  border-bottom: 1px solid #C4684B; /* Terracotta Clay */
   position: sticky;
   top: 0;
   z-index: 10;
@@ -20,36 +21,35 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #3B2A26;
+  color: #3B2A26; /* Roasted Cocoa */
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .navbar a:hover {
-  color: #F6E9D7;
+  color: #8E2F2F; /* Heritage Red */
 }
 
 /* Hero / Titelblok */
 .hero {
   padding: 120px 20px;
   text-align: center;
-  background-color: #EAD8C0;
+  background-color: #EAD8C0; /* Oat Milk */
 }
 
 .hero h1 {
   font-size: 52px;
   font-weight: 300;
   margin: 0;
-  color: #3B2A26;
+  color: #3B2A26; /* Roasted Cocoa */
 }
 
 .subtitle {
   margin-top: 20px;
   font-size: 24px;
   font-weight: 400;
-  color: #A8B5A2;
+  color: #A8B5A2; /* Sage Linen */
 }
-
 
 /* Algemene content-sectie */
 .content {
@@ -57,14 +57,14 @@ body {
   margin: 60px auto;
   text-align: center;
   padding: 0 20px;
-  color: #333;
+  color: #3B2A26; /* Roasted Cocoa */
   line-height: 1.6;
   font-size: 18px;
 }
 
 /* Links in de content */
 .content .links a {
-  color: #0077cc;
+  color: #8E2F2F; /* Heritage Red */
   text-decoration: none;
   font-weight: 500;
 }
@@ -77,10 +77,10 @@ body {
 .footer {
   text-align: center;
   padding: 30px 20px;
-  background-color: #ffffff;
-  border-top: 1px solid #ccc;
+  background-color: #EAD8C0; /* Oat Milk */
+  border-top: 1px solid #C4684B; /* Terracotta Clay */
   margin-top: 60px;
-  color: #555;
+  color: #6E7F87; /* Faded Denim */
   font-size: 16px;
 }
 
@@ -96,18 +96,19 @@ body {
 
 /* Recept card */
 .recipe-card {
-  background: #ffffff;
+  background: #FFFFFF;
   border-radius: 8px;
   overflow: hidden;
   text-decoration: none;
-  color: #333;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  color: #3B2A26; /* Roasted Cocoa */
+  box-shadow: 0 4px 12px rgba(59, 42, 38, 0.15); /* Cocoa shadow */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #EAD8C0; /* Soft border */
 }
 
 .recipe-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 20px rgba(59, 42, 38, 0.25);
 }
 
 .recipe-card img {
@@ -121,5 +122,5 @@ body {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
+  color: #A44A3F; /* Dusty Rosewood */
 }
-
