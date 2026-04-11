@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #F6E9D7; /* Buttercream */
-  color: #3B2A26; /* Roasted Cocoa */
+  background-color: #F4F1EC; /* Linen Mist */
+  color: #2F2F2F; /* Misty Charcoal */
 }
 
 /* Navigatiebalk */
@@ -12,8 +12,8 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 20px 40px;
-  background-color: #EAD8C0; /* Oat Milk */
-  border-bottom: 1px solid #C4684B; /* Terracotta Clay */
+  background-color: #DDE7EE; /* Porcelain Blue */
+  border-bottom: 1px solid #8FA3B8; /* Vintage Steel */
   position: sticky;
   top: 0;
   z-index: 10;
@@ -21,34 +21,34 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #3B2A26; /* Roasted Cocoa */
+  color: #2F2F2F; /* Misty Charcoal */
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .navbar a:hover {
-  color: #8E2F2F; /* Heritage Red */
+  color: #9E3A3A; /* Cranberry Thread */
 }
 
 /* Hero / Titelblok */
 .hero {
   padding: 120px 20px;
   text-align: center;
-  background-color: #EAD8C0; /* Oat Milk */
+  background-color: #DDE7EE; /* Porcelain Blue */
 }
 
 .hero h1 {
   font-size: 52px;
   font-weight: 300;
   margin: 0;
-  color: #3B2A26; /* Roasted Cocoa */
+  color: #2F2F2F; /* Misty Charcoal */
 }
 
 .subtitle {
   margin-top: 20px;
   font-size: 24px;
   font-weight: 400;
-  color: #A8B5A2; /* Sage Linen */
+  color: #6B7A8F; /* Nordic Slate */
 }
 
 /* Algemene content-sectie */
@@ -57,14 +57,14 @@ body {
   margin: 60px auto;
   text-align: center;
   padding: 0 20px;
-  color: #3B2A26; /* Roasted Cocoa */
+  color: #2F2F2F;
   line-height: 1.6;
   font-size: 18px;
 }
 
 /* Links in de content */
 .content .links a {
-  color: #8E2F2F; /* Heritage Red */
+  color: #9E3A3A; /* Cranberry Thread */
   text-decoration: none;
   font-weight: 500;
 }
@@ -77,10 +77,10 @@ body {
 .footer {
   text-align: center;
   padding: 30px 20px;
-  background-color: #EAD8C0; /* Oat Milk */
-  border-top: 1px solid #C4684B; /* Terracotta Clay */
+  background-color: #DDE7EE; /* Porcelain Blue */
+  border-top: 1px solid #8FA3B8; /* Vintage Steel */
   margin-top: 60px;
-  color: #6E7F87; /* Faded Denim */
+  color: #6B7A8F; /* Nordic Slate */
   font-size: 16px;
 }
 
@@ -100,15 +100,15 @@ body {
   border-radius: 8px;
   overflow: hidden;
   text-decoration: none;
-  color: #3B2A26; /* Roasted Cocoa */
-  box-shadow: 0 4px 12px rgba(59, 42, 38, 0.15); /* Cocoa shadow */
+  color: #2F2F2F;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border: 1px solid #EAD8C0; /* Soft border */
+  border: 1px solid #DDE7EE; /* Soft cool border */
 }
 
 .recipe-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(59, 42, 38, 0.25);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .recipe-card img {
@@ -122,5 +122,5 @@ body {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-  color: #A44A3F; /* Dusty Rosewood */
+  color: #6B7A8F; /* Nordic Slate */
 }
