@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #F4F1EC; /* Linen Mist */
-  color: #2F2F2F; /* Misty Charcoal */
+  background-color: #F7F4EF; /* Linen White */
+  color: #3B2F2F; /* Cocoa Brown */
 }
 
 /* Navigatiebalk */
@@ -12,8 +12,8 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 20px 40px;
-  background-color: #DDE7EE; /* Porcelain Blue */
-  border-bottom: 1px solid #8FA3B8; /* Vintage Steel */
+  background-color: #EDE6DE; /* Muted Parchment */
+  border-bottom: 1px solid #C97A7A; /* Vintage Rose */
   position: sticky;
   top: 0;
   z-index: 10;
@@ -21,34 +21,34 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #2F2F2F; /* Misty Charcoal */
+  color: #3B2F2F; /* Cocoa Brown */
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .navbar a:hover {
-  color: #9E3A3A; /* Cranberry Thread */
+  color: #8B3A3A; /* Deep Cranberry */
 }
 
 /* Hero / Titelblok */
 .hero {
   padding: 120px 20px;
   text-align: center;
-  background-color: #DDE7EE; /* Porcelain Blue */
+  background-color: #EDE6DE; /* Muted Parchment */
 }
 
 .hero h1 {
   font-size: 52px;
   font-weight: 300;
   margin: 0;
-  color: #2F2F2F; /* Misty Charcoal */
+  color: #3B2F2F; /* Cocoa Brown */
 }
 
 .subtitle {
   margin-top: 20px;
   font-size: 24px;
   font-weight: 400;
-  color: #6B7A8F; /* Nordic Slate */
+  color: #A89C92; /* Warm Taupe */
 }
 
 /* Algemene content-sectie */
@@ -57,19 +57,20 @@ body {
   margin: 60px auto;
   text-align: center;
   padding: 0 20px;
-  color: #2F2F2F;
+  color: #3B2F2F;
   line-height: 1.6;
   font-size: 18px;
 }
 
 /* Links in de content */
 .content .links a {
-  color: #9E3A3A; /* Cranberry Thread */
+  color: #A8574E; /* Clay Red */
   text-decoration: none;
   font-weight: 500;
 }
 
 .content .links a:hover {
+  color: #8B3A3A; /* Deep Cranberry */
   text-decoration: underline;
 }
 
@@ -77,10 +78,10 @@ body {
 .footer {
   text-align: center;
   padding: 30px 20px;
-  background-color: #DDE7EE; /* Porcelain Blue */
-  border-top: 1px solid #8FA3B8; /* Vintage Steel */
+  background-color: #EDE6DE; /* Muted Parchment */
+  border-top: 1px solid #C97A7A; /* Vintage Rose */
   margin-top: 60px;
-  color: #6B7A8F; /* Nordic Slate */
+  color: #A89C92; /* Warm Taupe */
   font-size: 16px;
 }
 
@@ -100,10 +101,10 @@ body {
   border-radius: 8px;
   overflow: hidden;
   text-decoration: none;
-  color: #2F2F2F;
+  color: #3B2F2F;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border: 1px solid #DDE7EE; /* Soft cool border */
+  border: 1px solid #EDE6DE; /* Soft neutral border */
 }
 
 .recipe-card:hover {
@@ -122,5 +123,5 @@ body {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-  color: #6B7A8F; /* Nordic Slate */
+  color: #A8574E; /* Clay Red */
 }
