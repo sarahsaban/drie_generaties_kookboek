@@ -4,6 +4,7 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #F7F4EF; /* Linen White */
   color: #3B2F2F; /* Cocoa Brown */
+  line-height: 1.7;
 }
 
 /* Navigatiebalk */
@@ -21,8 +22,10 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #3B2F2F; /* Cocoa Brown */
+  color: #3B2F2F;
   font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.3px;
   transition: color 0.2s ease;
 }
 
@@ -32,63 +35,91 @@ body {
 
 /* Hero / Titelblok */
 .hero {
-  padding: 120px 20px;
+  padding: 140px 20px;
   text-align: center;
   background-color: #EDE6DE; /* Muted Parchment */
+  background-image: radial-gradient(rgba(255,255,255,0.4) 1px, transparent 1px);
+  background-size: 6px 6px; /* subtiel retro patroon */
+}
+
+.hero-inner {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .hero h1 {
-  font-size: 52px;
+  font-size: 64px;
   font-weight: 300;
   margin: 0;
-  color: #3B2F2F; /* Cocoa Brown */
+  color: #3B2F2F;
+  letter-spacing: 1px;
 }
 
 .subtitle {
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
-  color: #A89C92; /* Warm Taupe */
+  color: #A89C92;
+  letter-spacing: 0.5px;
 }
 
-/* Algemene content-sectie */
-.content {
-  max-width: 700px;
-  margin: 60px auto;
+/* Intro sectie */
+.intro {
+  padding: 80px 20px;
   text-align: center;
-  padding: 0 20px;
+}
+
+.intro-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.intro h2 {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 20px;
   color: #3B2F2F;
-  line-height: 1.6;
-  font-size: 18px;
 }
 
-/* Links in de content */
-.content .links a {
-  color: #A8574E; /* Clay Red */
+.intro p {
+  font-size: 19px;
+  color: #3B2F2F;
+  margin-bottom: 40px;
+}
+
+/* Retro CTA button */
+.cta-button {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #A8574E; /* Clay Red */
+  color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-size: 17px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(168, 87, 78, 0.25);
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
-.content .links a:hover {
-  color: #8B3A3A; /* Deep Cranberry */
-  text-decoration: underline;
+.cta-button:hover {
+  background-color: #8B3A3A; /* Deep Cranberry */
+  transform: translateY(-2px);
 }
 
 /* Footer */
 .footer {
   text-align: center;
-  padding: 30px 20px;
-  background-color: #EDE6DE; /* Muted Parchment */
-  border-top: 1px solid #C97A7A; /* Vintage Rose */
-  margin-top: 60px;
-  color: #A89C92; /* Warm Taupe */
+  padding: 40px 20px;
+  background-color: #EDE6DE;
+  border-top: 1px solid #C97A7A;
+  margin-top: 80px;
+  color: #A89C92;
   font-size: 16px;
 }
 
 /* Recepten grid */
 .recipe-grid {
   max-width: 1100px;
-  margin: 60px auto;
+  margin: 80px auto;
   padding: 0 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -102,25 +133,25 @@ body {
   overflow: hidden;
   text-decoration: none;
   color: #3B2F2F;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border: 1px solid #EDE6DE; /* Soft neutral border */
+  border: 1px solid #EDE6DE;
 }
 
 .recipe-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
 }
 
 .recipe-card img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
 }
 
 .recipe-card h3 {
-  margin: 16px;
-  font-size: 20px;
+  margin: 20px;
+  font-size: 22px;
   font-weight: 500;
   text-align: center;
   color: #A8574E; /* Clay Red */
