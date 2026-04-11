@@ -20,34 +20,34 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #333;
+  color: #3B2A26;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .navbar a:hover {
-  color: #0077cc;
+  color: #F6E9D7;
 }
 
 /* Hero / Titelblok */
 .hero {
   padding: 120px 20px;
   text-align: center;
-  background-color: #fafafa;
+  background-color: #EAD8C0;
 }
 
 .hero h1 {
   font-size: 52px;
   font-weight: 300;
   margin: 0;
-  color: #222;
+  color: #3B2A26;
 }
 
 .subtitle {
   margin-top: 20px;
   font-size: 24px;
   font-weight: 400;
-  color: #0077cc;
+  color: #A8B5A2;
 }
 
 
