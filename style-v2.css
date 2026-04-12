@@ -156,3 +156,15 @@ body {
   text-align: center;
   color: #A8574E; /* Clay Red */
 }
+
+/* ⭐ Over ons tekst inspringen */
+.content p {
+  margin-left: 40px;
+  text-align: left;
+}
+
+/* Links blijven gecentreerd */
+.content .links {
+  margin-left: 0;
+  text-align: center;
+}
