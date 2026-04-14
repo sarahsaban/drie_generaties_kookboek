@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #F7F4EF; /* Linen White */
-  color: #3B2F2F; /* Cocoa Brown */
+  background-color: #F7F4EF; 
+  color: #3B2F2F;
   line-height: 1.7;
 }
 
@@ -13,8 +13,8 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 20px 40px;
-  background-color: #EDE6DE; /* Muted Parchment */
-  border-bottom: 1px solid #C97A7A; /* Vintage Rose */
+  background-color: #EDE6DE;
+  border-bottom: 1px solid #C97A7A;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -30,16 +30,16 @@ body {
 }
 
 .navbar a:hover {
-  color: #8B3A3A; /* Deep Cranberry */
+  color: #8B3A3A; 
 }
 
 /* Hero / Titelblok */
 .hero {
   padding: 140px 20px;
   text-align: center;
-  background-color: #EDE6DE; /* Muted Parchment */
+  background-color: #EDE6DE;
   background-image: radial-gradient(rgba(255,255,255,0.4) 1px, transparent 1px);
-  background-size: 6px 6px; /* subtiel retro patroon */
+  background-size: 6px 6px; 
 }
 
 .hero-inner {
@@ -91,7 +91,7 @@ body {
 .cta-button {
   display: inline-block;
   padding: 14px 28px;
-  background-color: #A8574E; /* Clay Red */
+  background-color: #A8574E;
   color: white;
   text-decoration: none;
   font-size: 17px;
@@ -101,7 +101,7 @@ body {
 }
 
 .cta-button:hover {
-  background-color: #8B3A3A; /* Deep Cranberry */
+  background-color: #8B3A3A;
   transform: translateY(-2px);
 }
 
@@ -129,18 +129,18 @@ body {
 /* Recept card */
 .recipe-card {
   background: #FFFFFF;
-  border-radius: 28px;
+  border-radius: 0; /* removed rounded edges */
   overflow: hidden;
   text-decoration: none;
   color: #3B2F2F;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: none; /* removed shadow */
+  transition: transform 0.2s ease; /* removed box-shadow transition */
   border: 1px solid #EDE6DE;
 }
 
 .recipe-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+  box-shadow: none; /* no shadow on hover */
 }
 
 .recipe-card img {
@@ -154,7 +154,7 @@ body {
   font-size: 22px;
   font-weight: 500;
   text-align: center;
-  color: #A8574E; /* Clay Red */
+  color: #A8574E; 
 }
 
 /* ⭐ Over ons tekst inspringen */
