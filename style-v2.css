@@ -110,7 +110,7 @@ body {
 .footer {
   text-align: center;
   padding: 40px 20px;
-  background-color: #EDE6DE;
+  background-color: #e6dad1;  /* new #e6dad1 old EDE6DE */
   border-top: 1px solid #C97A7A;
   margin-top: 80px;
   color: #A89C92;
@@ -136,7 +136,7 @@ body {
   color: #3B2F2F;
   box-shadow: none; /* removed shadow */
   transition: transform 0.2s ease; /* removed box-shadow transition */
-  border: 1px solid #EDE6DE;
+  border: 1px solid #e6dad1;  /* new #e6dad1 old EDE6DE */
 }
 
 .recipe-card:hover {
