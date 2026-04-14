@@ -6,7 +6,6 @@ body {
   color: #3B2F2F;
   line-height: 1.7;
 }
-/* new #e6dad1 and old EDE6DE */
 
 /* Navigatiebalk */
 .navbar {
@@ -14,7 +13,7 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 20px 40px;
-  background-color: #e6dad1;
+  background-color: #e6dad1; /* new #e6dad1 and old EDE6DE */
   border-bottom: 1px solid #C97A7A;
   position: sticky;
   top: 0;
@@ -23,7 +22,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #3B2F2F;
+  color: #e6dad1; /* old 3B2F2F */
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.3px;
@@ -38,7 +37,7 @@ body {
 .hero {
   padding: 140px 20px;
   text-align: center;
-  background-color: #EDE6DE;
+  background-color: #e6dad1; /* new #e6dad1 and old EDE6DE */
   background-image: radial-gradient(rgba(255,255,255,0.4) 1px, transparent 1px);
   background-size: 6px 6px; 
 }
