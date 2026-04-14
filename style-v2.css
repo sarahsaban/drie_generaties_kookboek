@@ -36,7 +36,7 @@ body {
 /* Hero / Titelblok */
 .hero {
   padding: 140px 20px;
-  text-align: left;
+  text-align: center;
   background-color: #EDE6DE;
   background-image: radial-gradient(rgba(255,255,255,0.4) 1px, transparent 1px);
   background-size: 6px 6px; 
@@ -53,15 +53,15 @@ body {
   margin: 0;
   color: #3B2F2F;
   letter-spacing: 1px;
-  text-align: center;
 }
 
 .subtitle {
   margin-top: 20px;
   font-size: 22px;
   font-weight: 400;
-  color: #e3b4aa; /* lichtere rood dan titel */
+  color: #4d0e00; /* donkerrood */
   letter-spacing: 0.5px;
+  text-align: left;
 }
 
 /* Intro sectie */
