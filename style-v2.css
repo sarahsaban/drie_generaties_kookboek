@@ -6,6 +6,7 @@ body {
   color: #3B2F2F;
   line-height: 1.7;
 }
+/* new #e6dad1 and old EDE6DE */
 
 /* Navigatiebalk */
 .navbar {
@@ -13,7 +14,7 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 20px 40px;
-  background-color: #EDE6DE;
+  background-color: #e6dad1;
   border-bottom: 1px solid #C97A7A;
   position: sticky;
   top: 0;
