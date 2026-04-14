@@ -168,3 +168,68 @@ body {
   margin-left: 0;
   text-align: center;
 }
+
+/* Receptpagina container */
+.recipe-container {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Storyblok */
+.recipe-story {
+  font-size: 20px;
+  color: #3B2F2F;
+  margin-bottom: 40px;
+  font-style: italic;
+  background-color: #EDE6DE;
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: 1px solid #C97A7A;
+}
+
+/* Receptfoto */
+.recipe-image img {
+  width: 100%;
+  border-radius: 28px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  margin-bottom: 50px;
+}
+
+/* Ingrediënten + Bereiding naast elkaar */
+.recipe-grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* Box styling */
+.recipe-box {
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 24px;
+  border: 1px solid #EDE6DE;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.recipe-box h2 {
+  color: #A8574E;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.recipe-box ul,
+.recipe-box ol {
+  padding-left: 20px;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+/* Hero specifiek voor recepten */
+.recipe-hero {
+  padding-bottom: 80px;
+}
+
