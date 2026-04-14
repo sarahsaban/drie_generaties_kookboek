@@ -38,7 +38,7 @@ body {
 /* Hero / Titelblok */
 .hero {
   padding: 140px 20px;
-  text-align: center;
+  text-align: right;
   background-color: #EDE6DE;
   background-image: radial-gradient(rgba(255,255,255,0.4) 1px, transparent 1px);
   background-size: 6px 6px; 
@@ -238,7 +238,7 @@ body {
 .hero .big-red-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 106px;
   color: #E24A2B;
   letter-spacing: 4px;
   text-transform: uppercase;
