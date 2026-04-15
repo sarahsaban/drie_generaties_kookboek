@@ -244,4 +244,70 @@ body {
   text-align: center;
 }
 
+/* 1. Achtergrond overal */
+body {
+  background-color: #e6dad1 !important;
+}
+
+/* 2. Hero titel fix */
+.hero .big-red-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 106px;
+  color: #E24A2B;
+  letter-spacing: 4px;
+  text-transform: none;
+  text-align: center;
+}
+
+/* 3. Scroll-sectie */
+.scroll-section {
+  padding: 120px 20px;
+  background-color: #e6dad1; /* kan later een foto worden */
+  text-align: center;
+}
+
+.scroll-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.scroll-section h2 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #3B2F2F;
+  margin-bottom: 40px;
+}
+
+/* 4. Grote knoppen */
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.cta-large {
+  display: inline-block;
+  padding: 18px 40px;
+  background-color: #A8574E;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.cta-large:hover {
+  background-color: #8B3A3A;
+  transform: translateY(-3px);
+}
+
+.cta-large.secondary {
+  background-color: #3B2F2F;
+}
+
+.cta-large.secondary:hover {
+  background-color: #2A1F1F;
+}
 
