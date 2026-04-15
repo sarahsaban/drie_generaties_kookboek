@@ -56,7 +56,7 @@ body {
 }
 
 .subtitle {
-  margin-top: 20px;
+  margin-top: 32px;
   font-size: 22px;
   font-weight: 400;
   color: #4d0e00; /* donkerrood */
@@ -231,7 +231,7 @@ body {
 
 /* Hero specifiek voor recepten */
 .recipe-hero {
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 
 .hero .big-red-title {
@@ -285,6 +285,7 @@ body {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .cta-large {
