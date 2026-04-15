@@ -38,8 +38,8 @@ body {
   padding: 140px 20px;
   text-align: center;
   background-color: #e6dad1; /* new #e6dad1 and old EDE6DE */
-  background-image: radial-gradient(rgba(255,255,255,0.4) 1px, transparent 1px);
-  background-size: 6px 6px; 
+  background-image: none;
+  background-size: 0; 
 }
 
 .hero-inner {
