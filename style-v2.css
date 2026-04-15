@@ -2,11 +2,9 @@
 body {
   margin: 0;
   font-family: 'Lora', serif;
-  background-color: #F7F4EF; 
+  background-color: #e6dad1 !important;
   color: #3B2F2F;
   line-height: 1.7;
-}
-
 }
 
 /* Navigatiebalk */
@@ -15,7 +13,7 @@ body {
   justify-content: center;
   gap: 40px;
   padding: 20px 40px;
-  background-color: #e6dad1; /* new #e6dad1 and old EDE6DE */
+  background-color: #e6dad1;
   border-bottom: 1px solid #C97A7A;
   position: sticky;
   top: 0;
@@ -24,7 +22,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #3B2F2F; /* new e6dad1*/
+  color: #3B2F2F;
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.3px;
@@ -32,16 +30,16 @@ body {
 }
 
 .navbar a:hover {
-  color: #8B3A3A; 
+  color: #8B3A3A;
 }
 
 /* Hero / Titelblok */
 .hero {
   padding: 140px 20px;
   text-align: center;
-  background-color: #e6dad1; /* new #e6dad1 and old EDE6DE */
+  background-color: #e6dad1;
   background-image: none;
-  background-size: 0; 
+  background-size: 0;
 }
 
 .hero-inner {
@@ -61,7 +59,7 @@ body {
   margin-top: 32px;
   font-size: 22px;
   font-weight: 400;
-  color: #4d0e00; /* donkerrood */
+  color: #4d0e00;
   letter-spacing: 0.5px;
   text-align: center;
 }
@@ -112,7 +110,7 @@ body {
 .footer {
   text-align: center;
   padding: 40px 20px;
-  background-color: #e6dad1;  /* new #e6dad1 old EDE6DE */
+  background-color: #e6dad1;
   border-top: 1px solid #C97A7A;
   margin-top: 80px;
   color: #A89C92;
@@ -132,18 +130,17 @@ body {
 /* Recept card */
 .recipe-card {
   background: #FFFFFF;
-  border-radius: 0; /* removed rounded edges */
+  border-radius: 0;
   overflow: hidden;
   text-decoration: none;
   color: #3B2F2F;
-  box-shadow: none; /* removed shadow */
-  transition: transform 0.2s ease; /* removed box-shadow transition */
-  border: 1px solid #e6dad1;  /* new #e6dad1 old EDE6DE */
+  box-shadow: none;
+  transition: transform 0.2s ease;
+  border: 1px solid #e6dad1;
 }
 
 .recipe-card:hover {
   transform: translateY(-6px);
-  box-shadow: none; /* no shadow on hover */
 }
 
 .recipe-card img {
@@ -157,16 +154,15 @@ body {
   font-size: 22px;
   font-weight: 500;
   text-align: center;
-  color: #A8574E; 
+  color: #A8574E;
 }
 
-/* ⭐ Over ons tekst inspringen */
+/* Over ons tekst */
 .content p {
   margin-left: 40px;
   text-align: left;
 }
 
-/* Links blijven gecentreerd */
 .content .links {
   margin-left: 0;
   text-align: center;
@@ -208,9 +204,9 @@ body {
   margin: 80px auto;
   max-width: 1100px;
 }
-/* Box styling */
+
 .recipe-box {
-  background: #f3e8e2; /* kun je later veranderen */
+  background: #f3e8e2;
   padding: 40px;
   border-radius: 12px;
   border: 1px solid #d8c7bf;
@@ -236,27 +232,11 @@ body {
   background-image: url("images/recept1.jpg");
   background-size: cover;
   background-position: center;
-  color: white; /* titel + subtitel leesbaar */
+  color: white;
   text-align: center;
 }
 
-
-.hero .big-red-title {
-  font-family: 'Lora', serif;
-  font-weight: 900;
-  font-size: 96px;
-  color: #E24A2B;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/* 1. Achtergrond overal */
-body {
-  background-color: #e6dad1 !important;
-}
-
-/* 2. Hero titel fix */
+/* Hero titel */
 .hero .big-red-title {
   font-family: 'Lora', serif;
   font-weight: 900;
@@ -267,10 +247,10 @@ body {
   text-align: center;
 }
 
-/* 3. Scroll-sectie */
+/* Scroll-sectie */
 .scroll-section {
   padding: 120px 20px;
-  background-color: #e6dad1; /* kan later een foto worden */
+  background-color: #e6dad1;
   text-align: center;
 }
 
@@ -286,7 +266,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* 4. Grote knoppen */
+/* Grote knoppen */
 .button-row {
   display: flex;
   justify-content: center;
@@ -319,14 +299,16 @@ body {
   background-color: #2A1F1F;
 }
 
+/* Recept titel smaller */
 .recipe-title {
-  max-width: 600px;   /* maakt de titel smaller */
-  margin: 0 auto;     /* centreert hem */
+  max-width: 600px;
+  margin: 0 auto;
   text-align: center;
-  font-size: 64px;    /* iets kleiner dan homepage */
+  font-size: 64px;
   font-family: 'Lora', serif;
 }
 
+/* Balkan-tip sectie */
 .balkan-tip {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -348,4 +330,3 @@ body {
   font-family: 'Lora', serif;
   line-height: 1.6;
 }
-
