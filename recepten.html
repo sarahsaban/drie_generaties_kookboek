@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Recepten</title>
   <link rel="stylesheet" href="style-v2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,31 +15,61 @@
     <a href="boek.html">Koop ons boek</a>
   </nav>
 
-  <header class="hero">
-    <h1>Recepten</h1>
+  <!-- HERO -->
+  <header class="recipe-hero" style="background-image: url('images/recepten-hero.jpg'); height: 60vh;">
+    <h1 class="recipe-title">Onze Recepten</h1>
+    <p class="subtitle">Traditionele smaken uit drie generaties</p>
   </header>
 
-  <section class="recipe-grid">
+  <section class="recipe-container">
 
-    <a class="recipe-card" href="recept1.html">
-      <img src="images/recept1.jpg" alt="Recept 1">
-      <h3>Sopska Salade</h3>
-    </a>
+    <!-- INTRO QUOTE -->
+    <div class="recipe-story">
+      <p>
+        “Elke maaltijd vertelt een verhaal — en elk verhaal begint in de keuken.”
+      </p>
+    </div>
 
-    <a class="recipe-card" href="recept2.html">
-      <img src="images/recept2.jpg" alt="Recept 2">
-      <h3>Bruine Bonen</h3>
-    </a>
+    <!-- RECEPTEN GRID -->
+    <div class="recipe-grid">
 
-    <a class="recipe-card" href="recept3.html">
-      <img src="images/recept3.jpg" alt="Recept 3">
-      <h3>Ajvar</h3>
-    </a>
+      <a class="recipe-card" href="recept1.html">
+        <img src="images/recept1.jpg" alt="Sopska Salade">
+        <h3>Sopska Salade</h3>
+      </a>
+
+      <a class="recipe-card" href="recept2.html">
+        <img src="images/recept2.jpg" alt="Bruine Bonen">
+        <h3>Bruine Bonen</h3>
+      </a>
+
+      <a class="recipe-card" href="recept3.html">
+        <img src="images/recept3.jpg" alt="Ajvar">
+        <h3>Ajvar</h3>
+      </a>
+
+    </div>
+
+    <!-- EXTRA EDITORIAL BLOK -->
+    <section class="balkan-tip" style="margin-top: 100px;">
+      <div class="balkan-left">
+        <p>Koken is delen.</p>
+      </div>
+      <div class="balkan-right">
+        <p>En elk gerecht dat je hier vindt, is een stukje familiegeschiedenis dat we graag met je delen.</p>
+      </div>
+    </section>
+
+    <!-- LINKS -->
+    <p class="links" style="margin-top: 80px;">
+      <a href="index.html">Terug naar home</a> • 
+      <a href="boek.html">Koop ons boek</a>
+    </p>
 
   </section>
 
   <footer class="footer">
-    <p>&copy; 2026 — Alle rechten voorbehouden</p>
+    <p>&copy; 2026 Wat Wij Meenamen — Alle rechten voorbehouden</p>
   </footer>
 
 </body>
