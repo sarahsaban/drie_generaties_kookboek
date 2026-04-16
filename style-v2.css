@@ -316,10 +316,10 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 140px;             /* ruimte tussen links en rechts */
-  max-width: 1100px;
+  max-width: 2100px;
   margin: 120px auto;
   padding: 20px;
-  text-align: left;      /* tekst links uitlijnen binnen de kolommen */
+  text-align: center;      /* tekst links uitlijnen binnen de kolommen */
 }
 
 .balkan-left p {
