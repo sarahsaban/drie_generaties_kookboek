@@ -336,3 +336,20 @@ body {
   max-width: 450px;
 }
 
+.navbar {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.recipe-hero {
+  padding-top: 200px; /* duwt de titel omlaag, navbar blijft vrij */
+}
+
