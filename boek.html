@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Koop ons boek</title>
   <link rel="stylesheet" href="style-v2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,19 +15,70 @@
     <a href="boek.html">Koop ons boek</a>
   </nav>
 
-  <header class="hero">
-    <h1>Koop ons boek</h1>
+  <!-- HERO -->
+  <header class="recipe-hero" style="background-image: url('images/boek.jpg'); height: 60vh;">
+    <h1 class="recipe-title">Koop ons kookboek</h1>
+    <p class="subtitle">Binnenkort verkrijgbaar</p>
   </header>
-  
-  <section class="content">
-    <p>
-      - anekdote - 
+
+  <section class="recipe-container">
+
+    <!-- INTRO QUOTE -->
+    <div class="recipe-story">
+      <p>
+        “Een kookboek vol herinneringen, verhalen en smaken die drie generaties verbinden.”
+      </p>
+    </div>
+
+    <!-- VERHAAL BLOK -->
+    <div style="max-width: 750px; margin: 0 auto; text-align: left; font-size: 20px; line-height: 1.8;">
+      <p>
+        Ons kookboek is meer dan een verzameling recepten. Het is een ode aan onze familie,
+        onze tradities en de gerechten die ons door de jaren heen hebben gevormd.
+      </p>
+
+      <p>
+        Van eenvoudige doordeweekse maaltijden tot feestelijke gerechten die alleen bij speciale
+        gelegenheden op tafel kwamen — elk recept vertelt een verhaal.
+      </p>
+
+      <p>
+        We werken momenteel aan de laatste details. Binnenkort kun je dit boek bestellen
+        en zelf een stukje van onze keuken in huis halen.
+      </p>
+    </div>
+
+    <!-- CALL TO ACTION -->
+    <div style="text-align: center; margin: 80px 0;">
+      <a class="cta-large" href="#" style="pointer-events: none; opacity: 0.6;">
+        Binnenkort te koop
+      </a>
+      <p style="margin-top: 20px; font-size: 18px; color: #3B2F2F;">
+        Schrijf je in op onze nieuwsbrief om als eerste op de hoogte te zijn.
+      </p>
+    </div>
+
+    <!-- FOTO + TEKST (optioneel) -->
+    <div style="display: flex; gap: 40px; max-width: 1100px; margin: 120px auto; align-items: center;">
+      <img src="images/boek-preview.jpg" alt="Boek preview" style="width: 50%; border-radius: 12px;">
+      <p style="font-size: 20px; line-height: 1.8;">
+        Het boek bevat authentieke Balkanrecepten, persoonlijke verhalen en prachtige fotografie.
+        Een warm, eerlijk en smaakvol document van drie generaties vrouwen die koken met liefde.
+      </p>
+    </div>
+
+    <!-- LINKS -->
+    <p class="links" style="margin-top: 80px;">
+      <a href="recepten.html">Onze recepten</a> • 
+      <a href="over-ons.html">Over ons</a> • 
+      <a href="index.html">Terug naar home</a>
     </p>
+
   </section>
-  
-<footer class="footer">
-  <p>&copy; 2026 Mijn Website — Alle rechten voorbehouden</p>
-</footer>
+
+  <footer class="footer">
+    <p>&copy; 2026 Wat Wij Meenamen — Alle rechten voorbehouden</p>
+  </footer>
 
 </body>
 </html>
