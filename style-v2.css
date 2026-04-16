@@ -337,19 +337,12 @@ body {
 }
 
 .navbar {
-  width: 100%;
+  display: flex;
   justify-content: center;
-  text-align: center;
-}
-
-.navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-.recipe-hero {
-  padding-top: 200px; /* duwt de titel omlaag, navbar blijft vrij */
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  position: relative;
+  z-index: 20;
 }
 
