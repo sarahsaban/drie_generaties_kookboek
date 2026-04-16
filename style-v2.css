@@ -228,13 +228,21 @@ body {
 
 /* Hero specifiek voor recepten */
 .recipe-hero {
-  padding: 120px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* zet de titel VERTICAAL in het midden */
+  align-items: center;       /* zet de titel HORIZONTAAL in het midden */
+  height: 60vh;              /* hoogte van de hero, zoals op index */
+  padding: 0 20px;
   background-image: url("images/recept1.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+
   color: white;
   text-align: center;
 }
+
 
 /* Hero titel */
 .hero .big-red-title {
