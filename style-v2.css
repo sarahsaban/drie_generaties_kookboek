@@ -337,19 +337,6 @@ body {
 }
 
 .navbar {
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-}
-
-.navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-.navbar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,5 +345,4 @@ body {
   position: relative;
   z-index: 20;
 }
-
 
